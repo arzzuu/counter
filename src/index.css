@@ -1,0 +1,31 @@
+.counter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.counter h1 {
+  font-size: 40px;
+  font-family: cursive;
+}
+
+.counter__output {
+  font-size: 40px;
+  color: blue;
+}
+
+.btn__container {
+  display: flex;
+  column-gap: 20px;
+}
+
+.control__btn {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: transparent;
+  /* color:  */
+  border: 1px solid rgb(16, 0, 54);
+  cursor: pointer;
+}
